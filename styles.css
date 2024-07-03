@@ -1,0 +1,27 @@
+/* Minimal CSS reset. Inspired by https://www.joshwcomeau.com/css/custom-css-reset/ */
+
+*, *::before, *::after {
+  box-sizing: border-box; /* Use a more-intuitive box-sizing model */
+}
+
+* {
+  margin: 0; /* Remove default margin */
+}
+
+body {
+  line-height: 1.5; /* Accessible line height */
+}
+
+/* Improve media defaults */
+img, picture, video, canvas, svg {
+  display: block; /* Treat images like layout elements, instead of inline */
+  max-width: 100%; /* Prevent large images from overflowing their container */
+}
+
+input, button, textarea, select {
+  font: inherit; /* Remove built-in form typography styles */
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word; /* Prevent text from overflowing its container */
+}
