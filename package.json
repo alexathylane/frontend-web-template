@@ -10,5 +10,8 @@
   "author": "Alexandria Thylane Rohn",
   "license": "ISC",
   "type": "module",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "prettier": "^3.3.2"
+  }
 }
