@@ -4,5 +4,8 @@
 # Optional npm cache directory
 .npm
 
+# Optional eslint cache
+.eslintcache
+
 # macOS
 .DS_Store
